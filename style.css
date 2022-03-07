@@ -7,12 +7,14 @@ body {
 header {
   background-color: rgb(18, 44, 18);
   color: white;
-  padding: 30px;
+  padding: 20px;
+  margin: 0px;
 }
 
-header > nav > ul > li > a {
+header > nav > ul > li >a{
   color: white;
   list-style: none;
+  float: right;
 }
 
 h1 {
@@ -20,8 +22,7 @@ h1 {
 }
 
 nav {
-  text-align: right;
-  list-style:square;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -40,6 +41,9 @@ body > footer > p {
     color: white;
     text-align: center;
 
+}
+main > section > h2 > h3{
+  margin-left: 70px;
 }
 
 h3 {
